@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: linux
+spec:
+  containers:
+  - name: linux
+    image: nginx:alpine
+    args:
+    - sleep
+    - infinity
